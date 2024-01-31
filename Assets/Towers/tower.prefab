@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4469033036384902703}
   - component: {fileID: 2385319919021096579}
-  - component: {fileID: 537677137227125798}
   m_Layer: 3
   m_Name: Square
   m_TagString: Untagged
@@ -75,7 +74,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 1, b: 0.16466069, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -85,22 +84,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &537677137227125798
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3902667053823508628}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 88d47fe3932a3224a9eef9316bb5e78e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  attackRange: 10
-  attackDamage: 10
-  attackSpeed: 0
-  laserColor: {r: 0, g: 1, b: 1, a: 1}
 --- !u!1 &4703690763053447599
 GameObject:
   m_ObjectHideFlags: 0
@@ -147,7 +130,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 88d47fe3932a3224a9eef9316bb5e78e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackRange: 5
+  attackRange: 3.5
   attackDamage: 10
   attackSpeed: 1
   laserColor: {r: 0, g: 1, b: 1, a: 1}

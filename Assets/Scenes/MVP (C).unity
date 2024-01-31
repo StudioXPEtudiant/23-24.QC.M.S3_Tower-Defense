@@ -533,7 +533,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 0
-  m_AdditionalShaderChannelsFlag: 0
+  m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0
@@ -656,7 +656,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 930025c2ad4f28647b561b672cca4fb4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  towerPrefab: {fileID: 4703690763053447599, guid: 84535000c76d22a489c5255df69fa1b9, type: 3}
 --- !u!4 &716826009
 Transform:
   m_ObjectHideFlags: 0
@@ -902,14 +901,14 @@ MonoBehaviour:
       m_Calls: []
   m_text: tower placement 1
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 0}
-  m_sharedMaterial: {fileID: 0}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 4278190335
   m_fontColor: {r: 1, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -922,7 +921,7 @@ MonoBehaviour:
   m_spriteAsset: {fileID: 0}
   m_tintAllSprites: 0
   m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: 0
+  m_TextStyleHashCode: -1183493901
   m_overrideHtmlColors: 0
   m_faceColor:
     serializedVersion: 2
@@ -953,7 +952,7 @@ MonoBehaviour:
   checkPaddingRequired: 0
   m_isRichText: 1
   m_parseCtrlCharacters: 1
-  m_isOrthographic: 0
+  m_isOrthographic: 1
   m_isCullingEnabled: 0
   m_horizontalMapping: 0
   m_verticalMapping: 0
@@ -1385,11 +1384,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4599931432063160539, guid: 84535000c76d22a489c5255df69fa1b9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 16.35
+      value: 33.82
       objectReference: {fileID: 0}
     - target: {fileID: 4599931432063160539, guid: 84535000c76d22a489c5255df69fa1b9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 16.66
+      value: 21.39
       objectReference: {fileID: 0}
     - target: {fileID: 4599931432063160539, guid: 84535000c76d22a489c5255df69fa1b9, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1455,7 +1454,8 @@ PrefabInstance:
       propertyPath: laserColor.r
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 537677137227125798, guid: 84535000c76d22a489c5255df69fa1b9, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
